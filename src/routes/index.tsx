@@ -53,8 +53,8 @@ function Index() {
             O TUNE LAB transforma seu carro, sua pista e seu feedback em um setup estruturado para você testar no Gran Turismo 7 — e aprende com cada nova tentativa.
           </p>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-            <a href="#novo-setup" className="inline-flex items-center justify-center gap-2 rounded-xl bg-cyan-300 px-6 py-3.5 font-bold text-slate-950 shadow-[0_0_40px_rgba(103,232,249,0.18)] transition hover:bg-cyan-200">
-              Criar meu primeiro setup <ArrowRight className="h-4 w-4" />
+            <a href="/app" className="inline-flex items-center justify-center gap-2 rounded-xl bg-cyan-300 px-6 py-3.5 font-bold text-slate-950 shadow-[0_0_40px_rgba(103,232,249,0.18)] transition hover:bg-cyan-200">
+              Abrir TUNE LAB <ArrowRight className="h-4 w-4" />
             </a>
             <a href="#catalogo" className="inline-flex items-center justify-center gap-2 rounded-xl border border-white/10 px-6 py-3.5 font-semibold text-white transition hover:bg-white/5">
               Explorar catálogo
@@ -92,9 +92,9 @@ function Index() {
               <div className="rounded-xl border border-white/5 bg-white/[0.025] p-3"><p className="text-[10px] uppercase tracking-wider text-slate-500">Pista</p><p className="mt-1 text-sm text-slate-300">Selecionar depois</p></div>
               <div className="rounded-xl border border-white/5 bg-white/[0.025] p-3"><p className="text-[10px] uppercase tracking-wider text-slate-500">Pneus</p><p className="mt-1 text-sm text-slate-300">Racing Soft</p></div>
             </div>
-            <button className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl bg-white/10 py-3 text-sm font-bold text-white transition hover:bg-white/15">
-              Continuar <ArrowRight className="h-4 w-4" />
-            </button>
+            <a href="/app" className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl bg-white/10 py-3 text-sm font-bold text-white transition hover:bg-white/15">
+              Abrir aplicativo <ArrowRight className="h-4 w-4" />
+            </a>
           </div>
         </div>
       </section>
