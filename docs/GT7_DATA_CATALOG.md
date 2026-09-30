@@ -18,3 +18,11 @@ Não adicionar `Kyoto Driving Park - Miyabi (invertida)`. Esse layout foi explic
 ## Próximo passo
 
 A lista integral de carros e os 121 layouts deve ser materializada como seed estruturado após a auditoria/reconciliação do catálogo-base, mantendo proveniência e evitando qualquer dado inventado.
+
+
+## Catálogos detalhados
+
+- [GT7_CARS.md](./GT7_CARS.md) — 79 carros enumerados.
+- [GT7_TRACKS.md](./GT7_TRACKS.md) — 121 layouts enumerados.
+- [TUNE_LAB_SPEC.md](./TUNE_LAB_SPEC.md) — regras, domínio e arquitetura.
+- [REPOSITORY_AUDIT.md](./REPOSITORY_AUDIT.md) — auditoria do scaffold inicial.
