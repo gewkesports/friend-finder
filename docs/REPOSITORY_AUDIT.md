@@ -42,7 +42,9 @@ A busca no código também não encontrou implementação para GT7, setup ou Sup
 
 ## Interface atual
 
-A rota `/` ainda contém o placeholder padrão de página vazia do Lovable. Não existe uma UI anterior do produto que precise ser preservada.
+A rota `/` funciona como landing page/apresentação e direciona para a aplicação real em `/app`. A rota `/app` implementa o fluxo funcional inicial de criação de setup, com catálogo de carros/pistas, filtros, briefing e motor determinístico de recomendação.
+
+Esta versão ainda não é o SaaS completo: persistência, autenticação, Supabase, limites específicos por carro, IA externa e histórico de versões permanecem etapas seguintes.
 
 ## Decisões
 
@@ -59,4 +61,4 @@ A rota `/` ainda contém o placeholder padrão de página vazia do Lovable. Não
 
 ## Próxima etapa
 
-Modelar schema, migrations, seed dos 79 carros e 121 layouts, limites, enums e contratos Zod. Depois disso iniciar a interface principal.
+Evoluir o motor determinístico para uma camada de domínio validada, adicionar limites específicos por carro, persistência e feedback iterativo; depois conectar um provider de IA desacoplado. O catálogo estruturado já está disponível em runtime para o fluxo inicial.
